@@ -5,9 +5,8 @@ theme: wsmith
 style: home
 ---
 
-<h1 class="page-header">Build Wiki Pages, Blog Posts, and Presentations. </h1>
-
-##Getting Started
+Getting Started
+===================
 
 Assuming you have yo and gulp installed.
 
@@ -204,12 +203,8 @@ Lightweight and Powerful
 
 [[Bespoke Presentations]] - Live Demo
 
-Mentions
+Notable Mentions
 ========
 
-<blockquote class="twitter-tweet" lang="en"><p>Cool little Gulp based static site generator: <a href="http://t.co/8rZtptTAqX">http://t.co/8rZtptTAqX</a> by <a href="https://twitter.com/jrhicks">@jrhicks</a></p>&mdash; Taylor Otwell (@taylorotwell) <a href="https://twitter.com/taylorotwell/statuses/496831540266295296">August 6, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>Cool little Gulp based static site generator: <a href="http://t.co/8rZtptTAqX">http://t.co/8rZtptTAqX</a> by <a href="https://twitter.com/jrhicks">@jrhicks</a></p>&mdash; Taylor Otwell - Laravel Founder (@taylorotwell) <a href="https://twitter.com/taylorotwell/statuses/496831540266295296">August 6, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet" lang="en"><p>Looks good, something worth to play with RT <a href="https://twitter.com/taylorotwell">@taylorotwell</a>: Cool little Gulp based static site generator: <a href="http://t.co/MMyB0E0lZk">http://t.co/MMyB0E0lZk</a> by <a href="https://twitter.com/jrhicks">@jrhicks</a></p>&mdash; Robert Deutz (@rdeutz) <a href="https://twitter.com/rdeutz/statuses/496904589753724928">August 6, 2014</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
