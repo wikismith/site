@@ -1,0 +1,31 @@
+{
+  "name": "wikismith-site",
+  "version": "0.0.2",
+  "description": "Source code for wikismith.com",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "connect-livereload": "^0.4.0",
+    "event-stream": "^3.1.7",
+    "express": "^4.7.2",
+    "gulp": "^3.6.2",
+    "tiny-lr": "0.0.9",
+    "wikismith": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wikismith/site.git"
+  },
+  "keywords": [
+    "wikismith"
+  ],
+  "author": "Jeffrey Hicks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wikismith/site/issues"
+  },
+  "homepage": "https://github.com/wikismith/site"
+}
