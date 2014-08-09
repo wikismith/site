@@ -2,20 +2,27 @@
 title: Learn More About Themes
 subtitle: ""
 theme: wsmith
-style: home
 created: "Tue Aug 05 2014 21:25:42 GMT-0500 (CDT)"
 ---
 
-Wikismith themes are autonomous and agnostic applications and usually include the following:
+Theme Overview
+==============
 
-| File         	| Responsible for:                 	|
-|--------------	|----------------------------------	|
-| package.json 	| Specifying theme's node.js dependencies|
-| bower.js     	| Specifying theme's front-end dependencies   	|
-| gulpfile.js  	| Building theme's assets and such   	|
-| index.js     	| Converting page markdown into HTML               	|
+Wikismith themes provide both the front-end build process and markdown rendering.  The build process
+and rendering are respectively framework and templating language agnostic.
 
-## Theme Package.json
+Theme Components
+================
+
+* package.json - Specifying theme's build dependencies
+
+* bower.js - Specifying theme's front-end dependencies
+
+* gulpfile.js - Build theme's assets and such
+
+* index.js - Convert page markdown into HTML
+
+## Package.json
 
 The theme's package.json has the dependencies needed for the themes Gulfile.js and index.js.
 
@@ -42,7 +49,7 @@ The theme's package.json has the dependencies needed for the themes Gulfile.js a
 }
 ```
 
-## Theme Bower.json
+## Bower.json
 
 This example bower.json simply specifies bootstrap as a dependency.
 
@@ -69,19 +76,15 @@ This example bower.json simply specifies bootstrap as a dependency.
 ```
 
 
-## Theme Gulpfile.js
+## Gulpfile.js
 
-A theme gulpfile is very similar to any project's gulpfile except with 3 notable differences:
+A theme gulpfile is very similar to any project's gulpfile except for 2 differences that allow the
+theme's build task to be called from the project's build.
 
 1.  It exports a build method
 
-2.  It follows the convention of building assets relative to the process current working directory (cwd)
+2.  It assumes the cwd is **not** its directory
 
-3.  It follows the convention of placing assets in a subfolder of build
-
-By exporting the build method, wikismith can plug into the theme and pipe more effeciently.
-By following the convention of placing assets in cwd/build/theme_name we match the project's
- expectations and avoid collision.
 
 This example Gulpfile.js collects the application and bower assets, moves them to their
  destination and links them into template.html with inject.
@@ -141,7 +144,7 @@ function build(cb) {
 module.exports = build;
 ```
 
-## Theme Index.js
+## Index.js
 
 The index.js exports a function that can receive a file object and
 return a string representing the HTML of the final rendered page.
