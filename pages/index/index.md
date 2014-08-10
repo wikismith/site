@@ -37,7 +37,7 @@ Wikismith projects are composed of pages, themes, and a gulpfile.
    |-gulpfile.js
    |-pages
    |---index
-   |-wikismith_themes
+   |-themes
    |---bespoke
    |---bs3
 </code></pre>
@@ -53,7 +53,7 @@ Pages are folders containing a plain text file (index.md) and other page assets:
    |-grunt_graphic.png
 </code></pre>
 
-Index.md is a plain-text file composed of a header and body.  The **header** is a YAML encoded set of variables (known as front-matter) that specify page variables and theme.  The **body** is a Markdown encoded page content that is easy-to-read, and easy-to-write.
+Index.md is a plain-text file composed of a header and body.  The **header** is a YAML encoded set of variables (known as front-matter) that specify page variables and theme.  The **body** is Markdown encoded page content that is easy-to-read, and easy-to-write.
 
 ####Example
 

@@ -8,6 +8,7 @@
     "event-stream": "^3.1.7",
     "express": "^4.7.2",
     "gulp": "^3.6.2",
+    "gulp-watch": "^0.6.9",
     "tiny-lr": "0.0.9",
     "wikismith": "^0.2.0"
   },

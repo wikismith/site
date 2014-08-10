@@ -1,15 +1,20 @@
-var gulp = require('gulp');
-var es = require('event-stream');
-var wikismith = require('wikismith');
-var express = require('express');
-var livereload = require('connect-livereload');
-var tinylr = require('tiny-lr');
+var gulp = require('gulp'),
+    watch = require('gulp-watch'),
+    es = require('event-stream'),
+    wikismith = require('wikismith'),
+    express = require('express'),
+    livereload = require('connect-livereload'),
+    tinylr = require('tiny-lr');
 
-var app = express();
-var lr = tinylr();
+var app = express(),
+    lr = tinylr();
 
 function serve() {
-    wikismith.watch_all()
+
+    watch({glob: ['pages/**/*.jpg', 'pages/**/*.png', 'pages/**/*.gif']})
+      .pipe(gulp.dest('build'));
+
+    wikismith.watch()
         .pipe(wikismith.pipeline())
         .pipe(gulp.dest('build'))
         .pipe(es.map(function(file, cb) {
@@ -26,3 +31,7 @@ function serve() {
 gulp.task('default', function() {
     serve()
 });
+
+gulp.task('install', function() {
+  wikismith.install('themes');
+})
