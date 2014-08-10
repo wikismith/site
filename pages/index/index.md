@@ -1,9 +1,15 @@
 ---
-title: The Gulp-Based Static Site Generator
+title: Gulp Powered Static Site Generator
 subtitle: ''
 theme: wsmith
 style: home
 ---
+
+Overview
+========
+
+Wikismith transforms plain text files into static sites using themes that offer
+attractive layouts and front-end aware markdown transformations.
 
 Getting Started
 ===================
@@ -89,10 +95,7 @@ Currently Wikiwmith ships with 2 easily customized themes.
 
 * [[Bespoke Presentations]] Live Demo
 
-Wikismith themes contain an index.js that transforms pages.  Themes
-manage their own front-end and build dependencies using standard node practices
-of bower.json and package.json.  They are autonomous apps and theme developers
-are virtually unlimited in choice of packages and build steps:  [[Learn More About Themes]]
+Wikismith themes provide both the front-end build process and markdown rendering. The build process and rendering are respectively framework and templating language agnostic. [[Learn More About Themes]]
 
 Wiki
 ====
