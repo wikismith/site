@@ -1,15 +1,9 @@
 ---
-title: Gulp Powered Static Site Generator
+title: Generate Static Sites with Gulp
 subtitle: ''
 theme: wsmith
 style: home
 ---
-
-Overview
-========
-
-Wikismith transforms plain text files into static sites using themes that offer
-attractive layouts and front-end aware markdown transformations.
 
 Getting Started
 ===================

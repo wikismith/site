@@ -85,14 +85,16 @@ h1 h2 h3 h4 h5 h6 h7 h8 {
         line-height: 1;
     }
 
+  .bs-docs-header p.home {
+    margin-right: 200px;
+    width: 400px;
+  }
 
-    .bs-docs-header p.home {
-        margin-right: 294px;
-    }
+  .bs-docs-header h1.home {
+    margin-right: 200px;
+    width: 400px;
+  }
 
-    .bs-docs-header h1.home {
-        margin-right: 294px;
-    }
 }
 
 @media (min-width:992px) {
@@ -120,11 +122,11 @@ h1 h2 h3 h4 h5 h6 h7 h8 {
     }
 
     .bs-docs-header p.home {
-        margin-right: 600px;
+        width: 500px;
     }
 
     .bs-docs-header h1.home {
-        margin-right: 600px;
+        width: 500px;
     }
 
 }
