@@ -1,9 +1,16 @@
 ---
-title: Generate Static Sites with Gulp
+title: Because Markdown Has Greater Potential
 subtitle: ''
 theme: wsmith
 style: home
 ---
+
+Wikismith
+=========
+
+Transform markdown to use more of a front-end's capabilities.  Take for
+example the scroll-spy on this page, or nifty [[Bespoke Presentations]] -- both are generated
+from markdown using Wikismith's built-in themes.
 
 Getting Started
 ===================
