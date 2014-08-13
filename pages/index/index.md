@@ -5,12 +5,8 @@ theme: wsmith
 style: home
 ---
 
-Wikismith
-=========
-
-Transform markdown to use more of a front-end's capabilities.  Take for
-example the scroll-spy on this page, or nifty [[Bespoke Presentations]] -- both are generated
-from markdown using Wikismith's built-in themes.
+Take for example the scroll-spy on this page, or this [[Nifty Presentation]] -- both are generated
+from markdown and exemplify possibilities enabled by giving plugin-themes enough power.
 
 Getting Started
 ===================
