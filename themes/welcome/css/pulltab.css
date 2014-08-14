@@ -1,0 +1,28 @@
+#sidebox {
+    border: 1px solid green;
+    position:fixed;
+    right:10px;
+    width:150px;
+    height:230px;
+}
+
+#sidebox .content {
+    float:bottom;
+    width:150px;
+    height:200px;
+    background:transparent;
+}
+
+#sidebox .tab {
+    cursor:pointer;
+    float: bottom;
+    width:150px;
+    height:30px;
+    background:#356AA0;
+    text-align: center;
+    line-height: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    color: white;
+}
