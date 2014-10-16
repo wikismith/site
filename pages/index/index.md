@@ -1,8 +1,8 @@
 ---
-title: Because Markdown Has Greater Potential
-subtitle: ''
-theme: wsmith
-style: home
+title: Use Gulp to Transform Markdown Into Beauty
+subtitle: Static wikis, blogs and presentations
+theme: welcome
+created: "Wed Aug 13 2014 11:21:30 GMT-0500 (CDT)"
 ---
 
 Transform markdown into more front-end capabilities.  For example, the scroll-spy on this page and this [[Nifty Presentation]] are generated
