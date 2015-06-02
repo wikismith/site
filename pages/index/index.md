@@ -1,6 +1,6 @@
 ---
 title: Use Gulp to Transform Markdown Into Beauty
-subtitle: Static wikis, blogs and presentations
+subtitle: Static w ikis, blogs and presentations
 theme: welcome
 created: "Wed Aug 13 2014 11:21:30 GMT-0500 (CDT)"
 ---
